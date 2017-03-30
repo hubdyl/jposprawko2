@@ -1,11 +1,24 @@
 Omówienie działania programu:
 
-Na początku tworzymy 3 obiekty, klasy Walec, Pret oraz Kula inicjujemy je za pomocą podania parametrów masy oraz promienia, program liczy nam moment bezwładności dla zadanej bryły poprzez użycie metody wypiszMoment, metoda ta zawiera funkcje, które pozwalają na obliczenie momentu dla zadanego promienia oraz masy przy tworzeniu obiektu. 
-Następnie tworzymy tablice obiektów pochodnych nadklasy Punkt, umieszamy tam obiekty klasy Walec, Pret oraz Kula inicjujemy je za pomoca parametrów masy, oraz promienia, przy tworzeniu Walca, podajemy również wysokość (która nie jest wymagana jakoby przy liczeniu momentu bezwładnosci ale jako, że jest to Walec pozwoliłem sobie na zdeklarowanie tego parametru) Następnie za pomocą metody wypiszMoment, której działanie opisałem powyżej, dostajemy informacje na temat masy,promienia oraz momentu bezwładnosci. Metoda twSteinera(parametr) pozwala nam obliczyć moment bezwładnośći z twierdzenia stainera, które jest trywialne. Następnie za pomocą metody getTwSteinera wyświetla nam moment bezwładnosći obliczony wg. tego twierdzenia.
+Na początku tworzymy 3 obiekty, klasy Walec, Pret oraz Kula inicjujemy je za pomocą podania parametrów masy oraz promienia, 
+program liczy nam moment bezwładności dla zadanej bryły poprzez użycie metody wypiszMoment, 
+metoda ta zawiera funkcje, które pozwalają na obliczenie momentu dla zadanego promienia oraz masy przy tworzeniu obiektu. 
+Następnie tworzymy tablice obiektów pochodnych nadklasy Punkt, umieszamy tam obiekty klasy Walec, Pret oraz Kula 
+inicjujemy je za pomoca parametrów masy, oraz promienia, przy tworzeniu Walca, podajemy również wysokość 
+(która nie jest wymagana jakoby przy liczeniu momentu bezwładnosci ale jako,
+że jest to Walec pozwoliłem sobie na zdeklarowanie tego parametru) 
+Następnie za pomocą metody wypiszMoment, której działanie opisałem powyżej,
+dostajemy informacje na temat masy,promienia oraz momentu bezwładnosci. 
+Metoda twSteinera(parametr) pozwala nam obliczyć moment bezwładnośći z twierdzenia stainera, które jest trywialne. 
+Następnie za pomocą metody getTwSteinera wyświetla nam moment bezwładnosći obliczony wg. tego twierdzenia.
 
 Zadanie na bdb:
 
-Używając obiektu skaner klasy Scanner, która umożliwia nam zczytywanie parametrów z konsoli, zapisuje je poprzez mometode nextDobule(), która jest wbudowana w klase, która znajduję się w pakiecie java.util.Scanner. Wyświetla się nam menu, wybieramy daną opcję, które są opisane w programie. Następnie program prosi nas o podanie parametrów wg. których ma liczyć moment, oraz odległości wg. której ma być użyte twierdzenie Steinera.
+Używając obiektu skaner klasy Scanner, która umożliwia nam zczytywanie parametrów z konsoli, 
+zapisuje je poprzez mometode nextDobule(), która jest wbudowana w klase, która znajduję się w pakiecie java.util.Scanner.
+Wyświetla się nam menu, wybieramy daną opcję, które są opisane w programie. 
+Następnie program prosi nas o podanie parametrów wg. których ma liczyć moment, 
+oraz odległości wg. której ma być użyte twierdzenie Steinera.
 
 
 Odpowiedzi na pytania:
@@ -14,11 +27,15 @@ Ad 1)
 
 składowe prywatne (private) są widoczne jedynie w klasie, z której pochodzą, i w funkcjach/klasach z nią zaprzyjaźnionych,
 
-składowe chronione (protected) są widoczne w klasie, z której pochodzą, i w funkcjach/klasach z nią zaprzyjaźnionych oraz w jej klasach pochodnych i funkcjach/klasach z nimi zaprzyjaźnionych,
+składowe chronione (protected) są widoczne w klasie, z której pochodzą, 
+i w funkcjach/klasach z nią zaprzyjaźnionych oraz w jej klasach pochodnych i funkcjach/klasach z nimi zaprzyjaźnionych,
 
 Ad 2)
 
-Konstruktory superklasy wywołujemy w bardziej zaawansowanych programach, chcąc oszczędzić czasu pisania programu oraz uczynić kod, bardziej czytelniejszym, zasada używania tworzymy Podklase następnie jej konstruktor pierwszą instrukcją w konstrukorze ma być instrukcja super(par1,par2 ..)
+Konstruktory superklasy wywołujemy w bardziej zaawansowanych programach, 
+chcąc oszczędzić czasu pisania programu oraz uczynić kod, bardziej czytelniejszym, 
+zasada używania tworzymy Podklase następnie jej konstruktor pierwszą instrukcją w 
+konstrukorze ma być instrukcja super(par1,par2 ..)
 
 Ad 3)
 
