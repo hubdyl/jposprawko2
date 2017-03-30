@@ -1,0 +1,23 @@
+Ad 1)
+
+składowe prywatne (private) są widoczne jedynie w klasie, z której pochodzą, i w funkcjach/klasach z nią zaprzyjaźnionych,
+
+składowe chronione (protected) są widoczne w klasie, z której pochodzą, i w funkcjach/klasach z nią zaprzyjaźnionych oraz w jej klasach pochodnych i funkcjach/klasach z nimi zaprzyjaźnionych,
+
+Ad 2)
+
+Konstruktory superklasy wywołujemy w bardziej zaawansowanych programach, chcąc oszczędzić czasu pisania programu oraz uczynić kod, bardziej czytelniejszym, zasada używania tworzymy Podklase następnie jej konstruktor pierwszą instrukcją w konstrukorze ma być instrukcja super(par1,par2 ..)
+
+Ad 3)
+
+Dostęp do pól oraz metod, super klasy uzyskujemy poprzez instrukcje super dla metod: 
+
+void nazwametodypodklasy()
+{
+ super.nazwaMetodyNadklasy();
+}
+
+Ad 4) 
+
+Pozwala nam to na tworzenie metod o tych samych nazwach ale o różnych parametrach.
+
